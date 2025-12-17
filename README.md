@@ -1,106 +1,44 @@
-
 📝 Blog App
 
-A modern Blog Application built with Next.js and React, designed for creating and managing blog content with ease. It supports full CRUD operations, a clean UI, and responsive design—perfect for personal blogging or content showcase platforms.
+A modern Next.js Blog Application for creating and managing blog posts with a clean, responsive UI. Ideal for personal blogs and content showcase.
 
 🚀 Features
 
-⚡ Built with Next.js 13+ and React 18
+Built with Next.js 13+ & React 18
 
-📱 Fully responsive (mobile & desktop)
+Fully responsive design
 
-✍️ Create, Read, Update & Delete blog posts
+CRUD operations for blogs
 
-🖊️ Rich text editor for writing blog content
+Rich text editor
 
-🖼️ Image optimization using Next.js Image
+Image optimization with Next.js Image
 
-🌐 API handling with Axios
+Axios for API calls
 
-🔔 Toast notifications for success & error messages
-
-🔐 Environment-based configuration support
+Toast notifications for feedback
 
 🛠️ Tech Stack
-Frontend
 
-Next.js
+Frontend: Next.js, React, Tailwind CSS
 
-React
+Backend: Next.js API Routes
 
-Tailwind CSS / CSS Modules
+Database: MongoDB
 
-Backend
-
-Next.js API Routes
-
-Database
-
-MongoDB
-
-Libraries & Tools
-
-Axios
-
-React-Toastify
-
-Mongoose
-
-📁 Project Structure
-Blog-App/
-├── app/
-├── components/
-│   ├── BlogItem.jsx
-│   └── BlogList.jsx
-├── lib/
-│   ├── config/
-│   │   └── db.js
-│   └── models/
-│       ├── BlogModel.js
-│       └── EmailModel.js
-├── assets/
-│   ├── assets.js
-│   └── images/
-├── public/
-├── .env.local
-├── next.config.mjs
-├── package.json
-└── README.md
+Libraries: Axios, React-Toastify
 
 📦 Installation
-1️⃣ Clone the Repository
 git clone https://github.com/Anamikaa1303/Blog-App.git
 cd Blog-App
-
-2️⃣ Install Dependencies
 npm install
-# or
-yarn install
+npm run dev
 
-3️⃣ Environment Setup
 
-Create a .env.local file in the root directory:
+Open http://localhost:3000
+ 🚀
 
+🔐 Environment Variables
 MONGODB_URI=your_mongodb_connection_string
 
-▶️ Run the Application
-npm run dev
-# or
-yarn dev
-
-
-Open your browser and visit:
-👉 http://localhost:3000
-
-🌐 Deployment
-
-You can easily deploy this app using Vercel:
-
-Push your code to GitHub
-
-Import the repository into Vercel
-
-Add environment variables in Vercel dashboard
-
-Deploy 🚀
 
