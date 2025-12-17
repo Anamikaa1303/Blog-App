@@ -1,6 +1,7 @@
 📝 Blog App
 
 A modern Next.js Blog Application for creating and managing blog posts with a clean, responsive UI. Ideal for personal blogs and content showcase.
+---
 
 🚀 Features
 
@@ -17,6 +18,7 @@ Image optimization with Next.js Image
 Axios for API calls
 
 Toast notifications for feedback
+---
 
 🛠️ Tech Stack
 
@@ -27,6 +29,7 @@ Backend: Next.js API Routes
 Database: MongoDB
 
 Libraries: Axios, React-Toastify
+---
 
 📦 Installation
 git clone https://github.com/Anamikaa1303/Blog-App.git
